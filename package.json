@@ -1,0 +1,23 @@
+{
+  "name": "nodereadmegenerator",
+  "version": "1.0.0",
+  "description": "This is a readme generator using Node.js and Inquirer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langjeff/HW_10_ReadmeGenerator.git"
+  },
+  "keywords": ["node", "inquirer", "readme"],
+  "author": "Jeffrey Lang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/langjeff/HW_10_ReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/langjeff/HW_10_ReadmeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
