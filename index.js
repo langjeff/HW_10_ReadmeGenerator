@@ -28,9 +28,10 @@ const questions = () => {
         message: 'How would someone use your project?',      
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What type of license would you like to have for this project?',      
+        message: 'What type of license would you like to have for this project?',
+        choices: ['MIT - A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.', 'Apache - You can do what you like with the software, as long as you include the required notices. This permissive license contains a patent license from the contributors of the code.', 'GPLv3 - You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.']      
     },
  
     {
