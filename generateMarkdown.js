@@ -47,8 +47,8 @@ ${data.contribution}
 ${data.tests}
 
 ## Questions
-//prompt for github username, link to github account.
-Connect with me on [Github]!(https://github.com/${data.user})
+If you have any questions about the project:
+Connect with me on [Github](https://github.com/${data.user})
 or reach out to me at: ${data.email}  
 `;
 }
